@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- רקע אחיד (שונה מהרקע הכללי של המסך) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFF7E8B5"/> <!-- שנה כאן את הצבע הרצוי -->
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+
+    <!-- מסגרת חיצונית -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="7dp" android:color="#8B6F47"/>
+
+        </shape>
+    </item>
+
+</layer-list>
+
+
+
+
